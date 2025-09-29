@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf');
+}
+body{
+    background-color: #84E1AD;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+header{
+    
+    background-image:linear-gradient(to bottom, #28995b 5%, #15492c 95%) ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
+    color: white;
+    text-align: center;
+
+}
+header > h1 {
+    margin: 0;
+    padding-top: 30px;
+}
+nav {
+    text-align: left;
+    padding-bottom: 10px ;
+    
+}
+nav > a {
+    text-decoration: none;
+    color: white ;
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+nav > a:hover{
+    background-color: #83e4af94 ;
+    border-radius: 4px;
+    
+}
+a {
+    color: #00a54a;
+    text-decoration: none;
+
+}
+article{
+    background-color: white;
+    
+    
+    width: 60%;
+    margin: auto;
+    
+}
+main p {
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+section {
+    padding: 15px;
+}
+section > h1, h2{
+    font-family: android;
+    color: #1A5C38;
+    padding-left: 9px;
+
+}
+section > h2 {
+    background-image: linear-gradient(to right,#3CD781, white ) ;
+}
+
+img{
+    max-width: 100%;  /* nunca passa do limite da div */
+    height: auto;     /* mantém a proporção original */
+    display: block;   /* remove espaços extras abaixo da imagem */
+    margin: auto;
+}
+div#iframe{
+    height: 400px;
+    background-color: #1A5C38 ;
+    text-align: center;
+    padding-top: 70px;
+}
+div#extra{
+    background-color: #95ffc3;
+    
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
+    margin: 0;
+
+}
+div#extra_conteudo{
+    padding: 0px 15px 5px 10px;
+}
+p#extra_p{
+    font-size: 20px;
+    color: white;
+    background-color: #227949;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    
+}
+li{
+    list-style-type: '✔ ';
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062);
+}
+ul {
+    display: inline-block;
+    width: 50%;
+    
+}
+
+footer{
+    background-color: #1A5C38;;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}
